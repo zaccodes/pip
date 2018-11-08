@@ -1,0 +1,26 @@
+@import 'reset';
+@import 'navbar';
+@import 'sidenav';
+
+/* Some Fonts */
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+/* Some Common Variables */
+
+$font-stack: 'Poor Story', cursive;
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Style page content */
+.main {
+    min-height: 100vh;
+    margin-left: 60px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    background-color: rgba(0,0,0, .7);
+}
+
+.introduction > p {
+  font-family: $font-stack;
+}
